@@ -1,2 +1,4 @@
-# Reidentification-Multitask-Learning-Fine-Tuning
-Person reidentification using PCA/LDA and deep learning Siamese networks and multi-task learning and fine tuning on the Oxford-IIIT Pets Dataset. As part of CAB420 - Machine Learning.
+# Reidentification, Multi-Task Learning, and Fine Tuning
+Person reidentification using PCA/LDA and deep learning Siamese networks evaluated using Top-N accuracy and Cumulative Match Characteristic (CMC) curves. Developing and training a non-deep learning using PCA. Also developing and evaluating a deep-learning based method using a VGG-like network architecture using triplet data. Both methods are compared based on results. A brief discussion on ethical concerns as well as necessary pre-processing applied to the data.
+
+Creating two models suitable for performing image classification and semantic segmentation. Fine-tuning a model (MobileNetV3Small), and evaluating the models using pre-defined training/testing splits for the Oxford-IIIT Pets Dataset. Models are evaluated on performance and how it differs including figures. A brief discussion of methods explored to improve performance for both models and mitigate identified issues.
